@@ -1,6 +1,6 @@
 ---
-slug: first-post
-title: First Post
+slug: third-post
+title: Third Post
 tags: 
     - dev
     - test
