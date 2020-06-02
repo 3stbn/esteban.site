@@ -10,6 +10,9 @@
     border-bottom: 1px solid $purple;
     max-height: 100px;
   }
+  .active-nav-item {
+    border-bottom: 2px solid $purple;
+  }
 </style>
 
 <nav class="navbar" role="navigation" aria-label="main navigation">
@@ -38,12 +41,14 @@
       <div class="navbar-end is-size-5">
         <a
           class="navbar-item has-text-primary has-text-weight-light"
-          href="projects">
+          href="projects"
+          class:active-nav-item={segment === 'projects'}>
           PROJECTS
         </a>
         <a
           class="navbar-item has-text-primary has-text-weight-light"
-          href="blog">
+          href="blog"
+          class:active-nav-item={segment === 'blog'}>
           BLOG
         </a>
       </div>

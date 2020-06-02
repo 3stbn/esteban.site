@@ -19,7 +19,7 @@
     {#if cover}
       <div class="media-left">
         <figure class="image is-128x128">
-          <img src={cover} alt="Image" />
+          <img src={cover} alt={title} />
         </figure>
       </div>
     {/if}
@@ -41,7 +41,7 @@
       {#if tags.length > 0}
         <nav class="level is-mobile">
           <div class="level-left">
-            <a class="level-item" aria-label="reply">
+            <!-- <a class="level-item" aria-label="reply">
               <span class="icon is-small">
                 <i class="fas fa-reply" aria-hidden="true" />
               </span>
@@ -55,7 +55,7 @@
               <span class="icon is-small">
                 <i class="fas fa-heart" aria-hidden="true" />
               </span>
-            </a>
+            </a> -->
           </div>
         </nav>
       {/if}
