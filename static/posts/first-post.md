@@ -1,16 +1,15 @@
 ---
 slug: first-post
 title: First Post
-tags: 
-    - dev
-    - test
+tags:
+  - dev
+  - test
 date: 05-22-2020
 ---
+# Here we are
 
-# We here!
-
-- test
-- testing
+* test
+* testing
 
 ```js
 var foo = 'bar'
