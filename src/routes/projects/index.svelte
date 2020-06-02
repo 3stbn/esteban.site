@@ -1,6 +1,6 @@
 <script context="module">
   export function preload({ params, query }) {
-    return this.fetch(`blog.json`)
+    return this.fetch(`projects.json`)
       .then(r => r.json())
       .then(posts => {
         return { posts };
@@ -14,18 +14,11 @@
   import PostsList from "../../components/PostsList.svelte";
 </script>
 
-<style>
-  ul {
-    margin: 0 0 1em 0;
-    line-height: 1.5;
-  }
-</style>
-
 <svelte:head>
   <title>Blog</title>
 </svelte:head>
 <div class="container">
-  <Hero page="blog" />
-  <PostsList {posts} title="Recent Posts" path="blog" />
+  <Hero page="projects" />
+  <PostsList {posts} title="Recent Projects" path="projects" />
 
 </div>

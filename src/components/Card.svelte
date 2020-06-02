@@ -10,6 +10,7 @@
     padding: 2rem;
     box-shadow: -22px 20px 0px 0px rgba(173, 168, 255, 1);
     border: 1px solid #a8a8a8;
+    margin: 0 1rem;
   }
 </style>
 

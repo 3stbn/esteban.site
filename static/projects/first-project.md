@@ -1,6 +1,6 @@
 ---
-slug: first-post
-title: First Post
+slug: first-project
+title: First project
 tags: 
     - dev
     - test
