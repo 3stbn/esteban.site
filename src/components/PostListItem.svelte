@@ -26,9 +26,11 @@
     {#if aligment === 'right' && showDate}
       <span>{new Date(post.date).toLocaleDateString()}</span>
     {/if}
-    {#each post.tags as tag}
-      <span class="post-tag has-background-link has-text-white">{tag}</span>
-    {/each}
+    {#if post.tags}
+      {#each post.tags as tag}
+        <span class="post-tag has-background-link has-text-white">{tag}</span>
+      {/each}
+    {/if}
     {#if aligment === 'left' && showDate}
       <span>{new Date(post.date).toLocaleDateString()}</span>
     {/if}

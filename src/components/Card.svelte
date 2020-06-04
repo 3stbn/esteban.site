@@ -2,7 +2,6 @@
   export let cover = "";
   export let title = "";
   export let description = "";
-  export let tags = [];
 </script>
 
 <style>
@@ -38,27 +37,6 @@
 
         </p>
       </div>
-      {#if tags.length > 0}
-        <nav class="level is-mobile">
-          <div class="level-left">
-            <!-- <a class="level-item" aria-label="reply">
-              <span class="icon is-small">
-                <i class="fas fa-reply" aria-hidden="true" />
-              </span>
-            </a>
-            <a class="level-item" aria-label="retweet">
-              <span class="icon is-small">
-                <i class="fas fa-retweet" aria-hidden="true" />
-              </span>
-            </a>
-            <a class="level-item" aria-label="like">
-              <span class="icon is-small">
-                <i class="fas fa-heart" aria-hidden="true" />
-              </span>
-            </a> -->
-          </div>
-        </nav>
-      {/if}
     </div>
   </article>
 </div>
