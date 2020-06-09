@@ -31,11 +31,11 @@
         </span>
         <span class=" username">@3stn</span>
       </a>
-      <a class="column social-link" href="https://twitter.com/stbantorres">
+      <a class="column social-link" href="https://twitter.com/esteban_codes">
         <span class="icon is-size-1">
           <i class="fab fa-twitter" />
         </span>
-        <span class=" username">@stbantorres</span>
+        <span class=" username">@esteban_codes</span>
       </a>
       <a
         class="column social-link"
