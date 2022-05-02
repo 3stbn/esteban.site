@@ -20,3 +20,5 @@ To then build a page using a visual builder
 What makes ui-stack different is that uses tailwind css classes and you can export the project in different frameworks.
 
 ![](/uploads/vs-code-result.png)
+
+Ui stack builder is still in development New features will be coming like the ability to use templates and save-reuse components
